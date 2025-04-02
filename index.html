@@ -61,13 +61,6 @@
         function closeBanner() {
             // Скрываем баннер
             document.getElementById('mainBanner').style.display = 'none';
-
-            // Отправляем метрику
-            if(typeof ym !== 'undefined') {
-                ym(65770858,'reachGoal','test_gpb');
-            } else {
-                console.log('Yandex Metrika not loaded');
-            }
         }
     </script>
 </body>
